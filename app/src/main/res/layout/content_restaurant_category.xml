@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="inc.maso.mangiare.RestaurantCategoryActivity"
+    tools:showIn="@layout/activity_restaurant_category">
+
+    <ImageView
+        android:elevation="@dimen/flat_0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/restaurantCategoryImageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/option_suchi"/>
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/restaurantCategoryTextView"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/display2Font_45sp"
+        android:fontFamily="roboto"
+        android:typeface="normal"
+        android:text="Suchi"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="24dp"
+        android:background="#c85b5b5b"
+        android:textColor="#fdfcfc" />
+
+</RelativeLayout>
