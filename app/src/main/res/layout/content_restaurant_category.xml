@@ -19,7 +19,7 @@
         android:layout_alignParentLeft="true"
         android:src="@drawable/option_suchi"/>
 
-    
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
